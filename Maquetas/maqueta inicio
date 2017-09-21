@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Index</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Mapa</a></li>
+				<li><a href="#">Foro</a></li>
+				<li><a href="#">Veterinarias</a></li>
+				<li><a href="#">Registrarse</a> </li>
+				<li><a href="#">Educación</a></li>
+				<form method="post" >
+					<li><input type="submit" name="submitLogForm" value="Iniciar sesión"></li>
+					<li><input type="pass" name="userpassword" placeholder="Clave"></li>
+					<li><input type="text" name="username" placeholder="Nombre de usuario"></li>
+				</form>
+			</ul>
+</nav>
+		<section>
+		<div id="quienes">
+			<h1>¿Quienes somos?</h1>
+			<p></p>
+		</div>
+		</section>
+		<footer>
+			<p>Todos los derechos reservados</p>
+		</footer>
+	</body>
+</html>
+
+-----------------------------------------------------------------------------------------------------
+CSS
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #111;
+}
+nav form {
+    list-style-type: none;
+    margin-right: 5%; 
+    padding: 1%;
+    overflow: visible;
+    background-color: orange;
+}
+nav ul form li{
+    float: right;
+}
+nav ul form li input{
+    margin-right: 2px;
+    margin-left: 2px;
+}
+#quienes{
+    float:center;
+    height:810px;
+    width:800px;
+    background-color:red;
+}
