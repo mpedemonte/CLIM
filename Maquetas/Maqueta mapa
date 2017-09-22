@@ -4,6 +4,22 @@
 	<title>Mapas</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./estilo.css">
+	<script>
+      function initMap() {
+        var temuco = {lat: -38.735747, lng: -72.5943726};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 20,
+          center: temuco
+        });
+        var marker = new google.maps.Marker({
+          position: temuco,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDm2rdxyxHE6elxzlwQ-d-e-qRMrLCw68&callback=initMap">
+    </script>
 </head>
 <body>
 	<nav>
@@ -22,8 +38,7 @@
 		</ul>
 	</nav>
 	<section>
-		<div id="maps">
-			    mapa
+		<div id="map">   
 		</div>
 	</section>
 	<section>
@@ -82,12 +97,11 @@ nav ul form li input{
     margin-top: 10px;
 }
 
-#maps{
+#map{
     float: right;
     width: 1150px;
     margin-right: 10px;
     height: 600px;
-    background-color: green;
     margin-left: 10px;
     margin-top: 10px;
     border-radius: 50px;
