@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang=es>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="registro.css">
+</head>
+<body>
+    <form action="register.php" onsubmit="return Validar(this)" method="post">
+    <fieldset>
+    <legend> - R e g i s t r o - </legend> <br> <br>
+    Nombres : <input type="text" id="nom" name="nom" placeholder="Nombres" required="required"> <br>
+    Apellidos : <input type="text" id="ape" name="ape" placeholder="Apellidos" required="required"> <br>
+    Fecha de Nacimiento :<input type="date" name="fecha" required="required" max="1999-01-01"> <br>
+    E-mail : <input type="email" name="ema" id="ema" required="required" placeholder="nombre@ejem.com"> <br>
+    Contraseña : <input type="password" id="cla" name="cla" required="required" placeholder="Ingrese contraseña"><br>
+    <input type="submit" value="Enviar datos">
+    </fieldset>
+   </form>
+</body>
+</html>
