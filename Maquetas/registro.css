@@ -1,11 +1,8 @@
-/* Add some margin to the page and set a default font */
 
 body {
   margin: 30px;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
-
-/* Style the form with a coloured background (and a gradient for Gecko/WebKit browsers), along with curved corners and a drop shadow */
 
 form {
   width: 35em;
@@ -17,31 +14,6 @@ form {
   border-radius: 10px; 
   box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
 }
-/* Give form elements consistent margin, padding and line height */
-
-form ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-form ul li {
-  margin: .9em 0 0 0;
-  padding: 0;
-}
-
-form * {
-  line-height: 1em;
-}
-
-/* Form heading */
-
-form h1 {
-  margin: 0 0 1.5em 0;
-  padding: 0;
-  text-align: center;
-}
-/* Give each fieldset a darker background, dark curved border and plenty of space */
 
 fieldset {
   padding: 0 20px 20px;
@@ -50,8 +22,6 @@ fieldset {
   background: #eae1c0;
   border-radius: 10px;
 }
-
-/* Give each fieldset legend a nice curvy green box with white text */
 
 legend {
   color: #fff;
@@ -76,7 +46,7 @@ label {
   padding: .4em 0 0 0;
   margin: .15em .5em 0 0;
 }
-/* Style the fields */
+/* Style fields */
 
 input, select, textarea {
   display: block;
@@ -109,7 +79,7 @@ textarea {
 }
 
 
-/* Display correctly filled-in fields with a green background */
+/* CSS de submit button */
 
 input:valid, textarea:valid {
   background: #efe;
