@@ -31,8 +31,5 @@
 		<div id="entraforo">
 			<h1>Titulo del foro</h1>
 		</div>
-		<div id="comentarios">
-			<h1>Caja de comentarios</h1>
-		</div>
 	</body>
 </html>
