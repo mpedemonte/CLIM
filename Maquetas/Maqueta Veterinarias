@@ -25,7 +25,7 @@
 		<section>
 			<div id="fondVet">
 				<h1>Veterinarias Temuco</h1>
-				<table>
+				<table width="90%" height="400px">
 					<ul>
 						<tr>
 							<td>
@@ -34,8 +34,23 @@
 									<p>Horario:</p>
 									<p>Contacto:</p>
 							</td>
+
 							<td>
 								<li id="Ti"><strong>Veterinaria 2</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto:</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Veterinaria 3</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto:</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Veterinaria 4</strong></li>
 									<p>Servicio:</p>
 									<p>Horario:</p>
 									<p>Contacto:</p>
@@ -43,11 +58,32 @@
 						</tr>
 						<tr>
 							<td>	
-								<li id="Ti"><strong>Veterinaria 22</strong></li>
+								<li id="Ti"><strong>Veterinaria 5</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto:</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Veterinaria 6</strong></li>
 									<p>Servicio:</p>
 									<p>Horario:</p>
 									<p>Contacto:</p>
 							</td>	
+
+							<td>
+								<li id="Ti"><strong>Veterinaria 7</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto:</p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Veterinaria 8</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto:</p>
+							</td>		
 						</tr>	
 					</ul>
 				</table>
@@ -58,7 +94,7 @@
 	</body>
 </html>
 
----------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
 CSS
 
 nav ul{
