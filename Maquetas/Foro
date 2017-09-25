@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Foro</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Mapa</a></li>
+				<li><a href="#">Foro</a></li>
+				<li><a href="#">Veterinarias</a></li>
+				<li><a href="#">Registrarse</a> </li>
+				<li><a href="#">Educación</a></li>
+				<form method="post" >
+					<li><input type="submit" name="submitLogForm" value="Iniciar sesión"></li>
+					<li><input type="pass" name="userpassword" placeholder="Clave"></li>
+					<li><input type="text" name="username" placeholder="Nombre de usuario"></li>
+				</form>
+			</ul>
+		</nav>
+		<h1>Bienvenidos a los foros</h1>
+		<p></p>
+		<div id="inicioforo">
+		<li>busca un foro<input type="text" name="buscar"></li>
+		<button>Buscar</button>
+		</div>
+		<div id="entraforo">
+			<h1>Titulo del foro</h1>
+		</div>
+		<div id="comentarios">
+			<h1>Caja de comentarios</h1>
+		</div>
+	</body>
+</html>
