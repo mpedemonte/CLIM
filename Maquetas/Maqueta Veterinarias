@@ -24,7 +24,33 @@
 		</nav>
 		<section>
 			<div id="fondVet">
-				<h2 style="color: white">Veterinarias Temuco</h3>
+				<h1>Veterinarias Temuco</h1>
+				<table>
+					<ul>
+						<tr>
+							<td>
+								<li id="Ti"><strong>Veterinaria 1</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto:</p>
+							</td>
+							<td>
+								<li id="Ti"><strong>Veterinaria 2</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto:</p>
+							</td>	
+						</tr>
+						<tr>
+							<td>	
+								<li id="Ti"><strong>Veterinaria 22</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto:</p>
+							</td>	
+						</tr>	
+					</ul>
+				</table>
 			</div>
 		</section>
 		<footer>Pie</footer>
@@ -32,7 +58,7 @@
 	</body>
 </html>
 
-------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
 CSS
 
 nav ul{
@@ -92,7 +118,7 @@ nav ul form li input{
 }
 
 #fondVet{
-   float: right;
+   float: center;
     width: 1310px;
     margin-right: 10px;
     height:600px;
@@ -116,4 +142,24 @@ footer{
     height:80px;
     background-color:#555555;
     text-align: center;
+}
+
+section div ul{
+    color:white;
+    font-size: 30px;
+}
+
+table{
+    color:white;
+    font-size: 15px;
+}
+
+h1{
+    font-size: 45px;
+    color: white;
+}
+
+#Ti{
+    font-size: 20px;
+    
 }
