@@ -3,7 +3,7 @@
 	<head>
 		<title>Foro</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="cssforo.css">
 	</head>
 
 	<body>
@@ -31,5 +31,64 @@
 		<div id="entraforo">
 			<h1>Titulo del foro</h1>
 		</div>
+		<footer>
+			<p>Todos los derechos reservados</p>
+		</footer>
 	</body>
 </html>
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: orange;
+}
+nav form {
+    list-style-type: none;
+    margin-right: 5%; 
+    padding: 1%;
+    overflow: visible;
+    background-color: orange;
+}
+nav ul form li{
+    float: right;
+}
+nav ul form li input{
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+body{
+    background-color: #336699;
+    color: white;
+}
+
+
+#inicioforo{
+    float: left;
+    height: 500px;
+    width: 200px;
+    background-color: orange;
+}
+#entraforo{
+    float: center;
+    height: 500px;
+    width: 1010px;
+    background-color:  #336699;
+}
