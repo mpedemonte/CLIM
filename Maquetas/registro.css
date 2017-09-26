@@ -78,6 +78,11 @@ textarea {
   height: 5em;
 }
 
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
 
 /* CSS de submit button */
 
