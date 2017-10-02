@@ -57,12 +57,41 @@
 	<section>
 		<div id="menu">
 			<h3 style="text-align: center">Lista de veterinarias</h3>
-			<ul style="list-style: none">
+			<ul style="list-style: none;height: 550px;width: 250px; overflow-y: auto;cursor: pointer">
+			   	
 				<li onclick="initMap(1)">Clínica Veterinaria Alma</li>
-				<li onclick="initMap(2)">Clínica Veterinaria Edén</li>
-				<li>Veterinaria Rodríguez</li>
-				<li>Veterinaria Andes</li>
-				<li>Veterinaria Citydog</li>
+			    <li onclick="initMap(2)">Clínica Veterinaria Edén</li>
+				<li onclick="initMap(3)">Clínica Veterinaria Altamira</li>	
+				<li onclick="initMap(4)"> Clínica Veterinaria Arca de Noé </li>	
+				<li onclick="initMap(5)"> Clínica Veterinaria El Carmen</li>
+				<li onclick="initMap(6)"> Clínica Veterinaria Kennel</li>
+				<li onclick="initMap(7)"> Clínica Veterinaria Los Castaños</li>
+				<li onclick="initMap(8)"> Clínica Veterinaria Recabarren - Barros Arana</li>
+				<li onclick="initMap(9)"> Clínica Veterinaria Recabarren - Pedro de Valdivia</li>
+				<li onclick="initMap(10)"> Clínica Veterinaria Recabarren - Recabarren</li>
+				<li onclick="initMap(11)"> Clínica Veterinaria Temuco</li>
+				<li onclick="initMap(12)"> El Portal de las Mascotas</li>
+				<li onclick="initMap(13)"> Hospital Veterinario - UCT</li>
+				<li onclick="initMap(14)"> Hospital Veterinario - UST</li>
+				<li onclick="initMap(15)"> Instituto Quirúrgico Veterinario</li>		
+				<li onclick="initMap(16)"> Veterinaria Rodríguez</li>
+				<li onclick="initMap(17)"> Clínica Veterinaria Vidapet</li>
+				<li onclick="initMap(18)"> Pet Boutique Alemania</li>
+				<li onclick="initMap(19)"> Veterinaria Andes</li>
+				<li onclick="initMap(20)"> Veterinaria Animalia</li>
+				<li onclick="initMap(21)"> Veterinaria Citydog</li>
+				<li onclick="initMap(22)"> Veterinaria Lemantú</li>
+				<li onclick="initMap(23)"> Veterinaria Malen</li>
+				<li onclick="initMap(24)"> Veterinaria Mascotas</li>
+				<li onclick="initMap(25)"> Veterinaria Municipal</li>
+				<li onclick="initMap(26)"> Veterinaria Ñielol</li>
+				<li onclick="initMap(27)"> Veterinaria Peumayen</li>
+				<li onclick="initMap(28)"> Veterinaria San Francisco de Asís</li>
+				<li onclick="initMap(29)"> Veterinaria San Sebastián</li>
+				<li onclick="initMap(30)"> Veterinaria Sevilla</li>
+				<li onclick="initMap(31)"> Vetpharma</li>
+				<li onclick="initMap(32)"> Clínica Veterinaria Exonupets</li>
+				<li onclick="initMap(33)"> Veterinaria Dr. Pablo Iglesias</li>
 			</ul>
 		</div>
 	</section>	
