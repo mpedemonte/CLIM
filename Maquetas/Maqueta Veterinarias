@@ -23,78 +23,301 @@
 			</ul>
 		</nav>
 		<section>
-			<div id="fondVet">
 				<h1>Veterinarias Temuco</h1>
-				<table width="90%" height="400px">
+				<table width="100%" height="450px">
 					<ul>
 						<tr>
 							<td>
-								<li id="Ti"><strong>Veterinaria 1</strong></li>
+								<li id="Ti"><strong>Clínica Veterinaria Altamira</strong></li>
 									<p>Servicio:</p>
 									<p>Horario:</p>
-									<p>Contacto:</p>
+									<p>Contacto: 2731003</p>
+									<p>Ubicación: Av. Altamira #02467, Temuco.</p>
 							</td>
 
 							<td>
-								<li id="Ti"><strong>Veterinaria 2</strong></li>
+								<li id="Ti"><strong>Clínica Veterinaria Arca de Noé</strong></li>
 									<p>Servicio:</p>
 									<p>Horario:</p>
-									<p>Contacto:</p>
+									<p>Contacto: 2244535</p>
+									<p>Ubicación: Av. Bernardo O’higgins #01158, Temuco.</p>
 							</td>
 
 							<td>
-								<li id="Ti"><strong>Veterinaria 3</strong></li>
+								<li id="Ti"><strong>Clínica Veterinaria Edén</strong></li>
 									<p>Servicio:</p>
 									<p>Horario:</p>
-									<p>Contacto:</p>
+									<p>Contacto: 2315500</p>
+									<p>Ubicación: Bernardo O'Higgins #297, Temuco.</p>
 							</td>
 
 							<td>
-								<li id="Ti"><strong>Veterinaria 4</strong></li>
+								<li id="Ti"><strong>Clínica Veterinaria El Carmen</strong></li>
 									<p>Servicio:</p>
 									<p>Horario:</p>
-									<p>Contacto:</p>
+									<p>Contacto: 2521800</p>
+									<p>Ubicación: Av. Los Creadores  #0115, Temuco.</p>
 							</td>	
 						</tr>
 						<tr>
 							<td>	
-								<li id="Ti"><strong>Veterinaria 5</strong></li>
+								<li id="Ti"><strong>Clínica Veterinaria Kennel  </strong></li>
 									<p>Servicio:</p>
 									<p>Horario:</p>
-									<p>Contacto:</p>
+									<p>Contacto: 2313000</p>
+									<p>Ubicación: Av. San Martín #1580, Temuco.  </p>
 							</td>
 
 							<td>
-								<li id="Ti"><strong>Veterinaria 6</strong></li>
+								<li id="Ti"><strong>Clínica Veterinaria Los Castaños</strong></li>
 									<p>Servicio:</p>
 									<p>Horario:</p>
-									<p>Contacto:</p>
+									<p>Contacto: 2256801</p>
+									<p>Ubicación: Av. Rudecindo Ortega #02550, Temuco. </p>
 							</td>	
 
 							<td>
-								<li id="Ti"><strong>Veterinaria 7</strong></li>
+								<li id="Ti"><strong>Clínica Veterinaria Recabarren - Barros Arana</strong></li>
 									<p>Servicio:</p>
 									<p>Horario:</p>
-									<p>Contacto:</p>
+									<p>Contacto: 2222900</p>
+									<p>Ubicación: Av. Barros Arana #01286, Temuco. </p>
 							</td>	
 
 							<td>
-								<li id="Ti"><strong>Veterinaria 8</strong></li>
+								<li id="Ti"><strong>Clínica Veterinaria Recabarren - Pedro de Valdivia</strong></li>
 									<p>Servicio:</p>
 									<p>Horario:</p>
-									<p>Contacto:</p>
+									<p>Contacto: 2402020</p>
+									<p>Ubicación: Av. Pedro de Valdivia #02075, Temuco. </p>
 							</td>		
 						</tr>	
+
+						<tr>
+							<td>	
+								<li id="Ti"><strong> Clínica Veterinaria Recabarren - Recabarren </strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2989877</p>
+									<p>Ubicación: Av. Recabarren #01571, Temuco.</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong> Clínica Veterinaria Temuco</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 240505</p>
+									<p>Ubicación: Av. Pablo Neruda #01471, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>El Portal de las Mascotas</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2735270</p>
+									<p>Ubicación: Prieto Norte #215, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Hospital Veterinario - UCT</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2553978</p>
+									<p>Ubicación: Av. Rudecindo Ortega #02950, Temuco. </p>
+							</td>		
+						</tr>	
+
+							<tr>
+							<td>	
+								<li id="Ti"><strong> Hospital Veterinario - UST </strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2942274</p>
+									<p>Ubicación: Av. Arrayan #405, Temuco.</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Instituto Quirúrgico Veterinario</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2401207</p>
+									<p>Ubicación: Av. Barros Arana #03805, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Clínica Veterinaria Alma</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2528292</p>
+									<p>Ubicación: Manuel Rodríguez #480, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Rodríguez</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 977027725</p>
+									<p>Ubicación: Av. Rodríguez #404, Temuco. </p>
+							</td>		
+						</tr>	
+
+							<tr>
+							<td>	
+								<li id="Ti"><strong> Clínica Veterinaria Vidapet </strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2240814 </p>
+									<p>Ubicación: Olimpia #1940, Temuco.</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Pet Boutique Alemania</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2734477</p>
+									<p>Ubicación: Av. España #460, loc. 102, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Andes</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2316454</p>
+									<p>Ubicación: Av. Andes #705, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Animalia</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2516048</p>
+									<p>Ubicación: Av. Lagos #565, Temuco. </p>
+							</td>		
+						</tr>	
+
+							<tr>
+							<td>	
+								<li id="Ti"><strong> Veterinaria Citydog </strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2340609</p>
+									<p>Ubicación: Los Nardos #01381, Temuco.</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Lemantú</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2749174</p>
+									<p>Ubicación: Tomás Alba Edison #2221, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Malen</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2739919</p>
+									<p>Ubicación: Rio Baker #711, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Mascotas</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2234442</p>
+									<p>Ubicación: Av. Alemania #01655, Temuco. </p>
+							</td>		
+						</tr>	
+
+							<tr>
+							<td>	
+								<li id="Ti"><strong> Veterinaria Municipal </strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2973451</p>
+									<p>Ubicación: Imperial #40, Temuco.</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Ñielol</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2214230</p>
+									<p>Ubicación: Zenteno #392, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Peumayen</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2313201</p>
+									<p>Ubicación: Quillay #3480, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Veterinaria San Francisco de Asís</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2404525</p>
+									<p>Ubicación: Av. Pedro de Valdivia 0853, Temuco. </p>
+							</td>		
+						</tr>	
+
+						<tr>
+							<td>	
+								<li id="Ti"><strong> Veterinaria San Sebastián </strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2264408</p>
+									<p>Ubicación: Av. Las Encinas #01810, Temuco.</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Sevilla</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2244626</p>
+									<p>Ubicación: Av. Pablo Neruda #01994, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Vetpharma</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2239728</p>
+									<p>Ubicación: Manuel Bulnes #279, loc 19, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Clínica Veterinaria Exonupets</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2223832</p>
+									<p>Ubicación: Av. Caupolicán #1471, Temuco. </p>
+							</td>		
+						</tr>	
+
+						<tr>
+							<td>
+								<li id="Ti"><strong>Veterinaria Dr. Pablo Iglesias</strong></li>
+									<p>Servicio: </p>
+									<p>Horario: </p>
+									<p>Contacto: 2546954</p>
+									<p>Ubicación: Inés de Suarez #1165, Temuco.</p>
+							</td>
+						</tr>
 					</ul>
-				</table>
-			</div>
+			</table>
+			<p>Todos los derechos reservados</p>
 		</section>
 		<footer>Pie</footer>
 			
 	</body>
 </html>
 
---------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------
+
 CSS
 
 nav ul{
@@ -115,7 +338,7 @@ nav ul li a{
     text-decoration: none;
 }
 nav ul li a:hover {
-    background-color: #111;
+    background-color: orange;
 }
 nav form {
     list-style-type: none;
@@ -153,17 +376,6 @@ nav ul form li input{
 
 }
 
-#fondVet{
-   float: center;
-    width: 1310px;
-    margin-right: 10px;
-    height:600px;
-    background-color: green;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 10px;
-}
-
 #ban{
     color: #555555;
     position: absolute;
@@ -197,5 +409,9 @@ h1{
 
 #Ti{
     font-size: 20px;
-    
+
+}
+body{
+    background-color: #336699;
+    color: white;
 }
