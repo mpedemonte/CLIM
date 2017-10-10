@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 	<head>
+		
 		<title>Educacion</title>
+		
 		<meta charset="utf-8">
+		
 		<link rel="stylesheet" type="text/css" href="educacion.css">
+
 		<script type="text/javascript">
 		var clic=1;
-		function divLogin(){
+		function Huella(){
 			if (clic==1) {
 				document.getElementById("caja").style.height="450px";
 				document.getElementById("parra").style.visibility="visible";
@@ -15,6 +18,7 @@
 				document.getElementById("parra2").style.visibility="visible";
 				document.getElementById("parra3").style.visibility="visible";
 				document.getElementById("parra4").style.visibility="visible";
+				document.getElementById("gatito").style.visibility="hidden";
 				clic=clic+1;
 			} 
 			else{
@@ -24,11 +28,36 @@
 				document.getElementById("parra2").style.visibility="hidden";
 				document.getElementById("parra3").style.visibility="hidden";
 				document.getElementById("parra4").style.visibility="hidden";
+				document.getElementById("gatito").style.visibility="visible";
 				clic=1;			
+			}
+		}
+		var c=1;
+		function gatero(){
+			if (c==1) {
+				document.getElementById("gato").style.height="450px";
+				document.getElementById("c").style.visibility="visible";
+				document.getElementById("c1").style.visibility="visible";
+				document.getElementById("c2").style.visibility="visible";
+				document.getElementById("c3").style.visibility="visible";
+				document.getElementById("prro").style.visibility="hidden";
+				c=c+1;
+			}
+			else{
+				document.getElementById("gato").style.height="0";
+				document.getElementById("c").style.visibility="hidden";
+				document.getElementById("c1").style.visibility="hidden";
+				document.getElementById("c2").style.visibility="hidden";
+				document.getElementById("c3").style.visibility="hidden";
+				document.getElementById("prro").style.visibility="visible";
+				c=1;
 			}
 		}
 		</script>
 	</head>
+
+<!--NAV-->
+
 	<body>	
 		<nav>
 			<ul>
@@ -45,6 +74,9 @@
 				</form>
 			</ul>
 		</nav>
+  		
+<!-- Huella de Perro -->
+
   		<section id="caja">
   			<div>
      			<h1 id="parra">Ley cholito</h1>
@@ -54,25 +86,97 @@
 				<p id="parra4">A nivel local, las Municipalidades serán las encargadas de rescatar, sanitizar, esterilizar y reubicar animales sin dueño, institución que, además, estará a cargo de fiscalizar esta norma.</p>
   			</div>
   		</section>
-  		<div id="boton" onclick="divLogin()" class="imagen">
-  		<img src="https://vignette.wikia.nocookie.net/clubpenguin/images/1/11/Emoticon_huella.png/revision/latest?cb=20131225170426&path-prefix=es" alt="Ley cholito" alt="Click para mas informacion."/>
-  		<h2>Ley Cholito.<span>&nbsp;</span><br><span>&nbsp;</span></h2>
+  		
+  		<div id="boton" onclick="Huella()" class="imagen">
+  			<img id="prro" src="https://i.pinimg.com/originals/5f/9b/6d/5f9b6d768d02122b9120f572b3e9e330.png" alt="Ley cholito"/>
 		</div>
+		
+<!-- Huella de Gato -->
+		
+		<section id="gato">
+			<div>
+				<h4 id="c">Consejos para esterilizar a tu mascota</h4>
+				<p id="c1">No debe comer ni consumir líquidos en las 12 horas previas a la cirugía, lo anterior para evitar complicaciones derivadas del uso de anestésicos durante el procedimiento quirúrgico y su recuperación.</p>
+				<p id="c2">No es conveniente que los bañes antes de la cirugía, ya que el uso de anestésicos baja la temperatura corporal de tu animalito y podría presentarse un problema de tipo respiratorio.</p>
+				<p id="c3">Si tu perro o gato fue vacunado deberás esperar cuando menos 15 días antes de esterilizarlo, y posterior a la intervención quirúrgica es recomendable que dejes transcurrir 10 días antes de vacunarlo.</p>
+			</div>	
+		</section>
+		
+		<div id="boton2" onclick="gatero()">
+			<img id="gatito" src="https://i.pinimg.com/originals/24/90/5e/24905e2b135be6ebd0718e4c6c3b81cb.png">
+			<h2></h2>
+		</div>
+		
 	</body>
 </html>
 
 ------------------------------------------------------------------------------------------------------------------
 CSS
 
-img{
+p{
+	text-align: center;
+	font-family: impact;
+	visibility: hidden;
+	color: white;
+}
+h1{
+	text-align: center;
+	font-family: impact;
+	visibility: hidden;
+	color: white;
+}
+h4{
+	text-align: center;
+	font-family: impact;
+	visibility: hidden;
+	color: white;
+}
+
+/*clases*/
+
+.imagen{
+	position: relative;
+}
+
+/* id's*/
+
+#info{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 350px;
+}
+#gato{
+	float: left;
+	height: 0px;
+	width: 400px;
+	background-color: orange;
+	margin-top: 50px;
+	margin-left: 220px;	
+	box-shadow: 10px 10px 5px #F8470C;
+	position: absolute;
+
+}
+#boton2:hover{
+	opacity: .8
+}
+#prro{
 	height:500px;
 	width: 500px;
 	margin-top: 50px;
 	margin-left: 50px;
 	float: left;
 }
+#gatito{
+	height:500px;
+	width: 500px;
+	margin-top: 50px;
+	margin-left: 150px;
+	float: right;
+	visibility: visible;
+	position: absolute;
+}
 #caja{
-	transition: height .4s;
+	/*transition: height .4s;*/
 	height: 0px;
 	width: 400px;
 	background-color: orange;
@@ -86,35 +190,4 @@ img{
 }
 #boton{
 	cursor: pointer;
-}
-p{
-	text-align: center;
-	font-family: impact;
-	color: black;
-	visibility: hidden;
-	color: white;
-}
-h1{
-	text-align: center;
-	font-family: impact;
-	color: black;
-	visibility: hidden;
-	color: white;
-}
-.imagen{
-	position: relative;
-}
-h2{
-	position: absolute;
-	font-size: 58px;
-	font-family: impact;
-	text-align: center;
-	margin-top: 377px;
-	margin-left: 202px;
-	color: #F8470C;
-}
-#info{
-	font-size: 20px;
-	text-align: center;
-	margin-top: 350px;
 }
