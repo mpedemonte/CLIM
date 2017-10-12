@@ -1,7 +1,8 @@
-
 body {
   margin: 30px;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  background-color: #336699;
+  color: white;
 }
 
 form {
@@ -10,7 +11,7 @@ form {
   padding: 50px 60px;
   overflow: auto;
   color: #3e4a49;
-  background-color: #f5eedb;
+  background-color: orange;
   border-radius: 10px; 
   box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
 }
@@ -81,8 +82,8 @@ textarea {
 input[type="checkbox"] {
   width: 20px;
   height: 20px;
+  color: black;
 }
-
 
 /* CSS de submit button */
 
