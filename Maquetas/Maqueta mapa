@@ -3,13 +3,13 @@
 <head>
 	<title>Mapas</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="./estilo.css">
+	<link rel="stylesheet" type="text/css" href="mapcss.css">
 	<script>
       function initMap(num) {
         if (num==1) {
         	var temuco = {lat: -38.735747, lng: -72.5943726};
         	var map = new google.maps.Map(document.getElementById('map'), {
-          		zoom: 18,
+          		zoom: 19,
           		center: temuco
         		});
         	var marker = new google.maps.Marker({
@@ -28,6 +28,347 @@
           		map: map
         		});
       	}
+        if (num==3) {
+        	var temuco = {lat: -38.7519841, lng: -72.6437955};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==4) {
+        	var temuco = {lat: -38.738778, lng: -72.618795}; 
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 18,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==5) {
+        	var temuco = {lat: -38.716685, lng: -72.652024};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==6) {
+        	var temuco = {lat: -38.735934, lng: -72.624034};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 18,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==7) {
+        	var temuco = {lat: -38.705458, lng: -72.554452};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 18,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==8) {
+        	var temuco = {lat: -38.7275666, lng: -72.5665644};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 18,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==9) {
+        	var temuco = {lat: -38.717159, lng: -72.625817};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 18,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==10) {
+        	var temuco = {lat: -38.754426, lng: -72.629598};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==11) {
+        	var temuco = {lat: -38.7395677, lng: -72.6239247};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==12) {
+        	var temuco = {lat:-38.733868, lng:-72.600126 };
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==13) {
+        	var temuco = {lat: -38.702659, lng: -72.550263};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==14) {
+        	var temuco = {lat: -38.735672, lng: -72.603278};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 19,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==15) {
+        	var temuco = {lat: -38.708422, lng: -72.550253};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==16) {
+        	var temuco = {lat: -38.735590, lng: -72.595000};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==17) {
+        	var temuco = {lat: -38.746791, lng: -72.626073};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==18) {
+        	var temuco = {lat: -38.734013, lng: -72.612361};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==19) {
+        	var temuco = {lat: -38.733987, lng: -72.622309};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==20) {
+        	var temuco = {lat: -38.738638, lng: -72.593201};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==21) {
+        	var temuco = {lat: -38.752733, lng: -72.617784};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==22) {
+        	var temuco = {lat: -38.756979, lng: -72.642134};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==23) {
+        	var temuco = {lat: -38.716139, lng: -72.551103};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==24) {
+        	var temuco = {lat: -38.730709, lng: -72.622586};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==25) {
+        	var temuco = {lat: -38.744692, lng: -72.601977};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==26) {
+        	var temuco = {lat: -38.730005, lng: -72.581363};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==27) {
+        	var temuco = {lat: -38.712258, lng: -72.553650};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==28) {
+        	var temuco = {lat: -38.727835, lng: -72.611122};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==29) {
+        	var temuco = {lat: -38.745902, lng: -72.632024};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==30) {
+        	var temuco = {lat: -38.738231, lng: -72.630809};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==31) {
+        	var temuco = {lat: -38.736235, lng: -72.587195};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==32) {
+        	var temuco = {lat: -38.727259, lng: -72.577776};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
+      	if (num==33) {
+        	var temuco = {lat: -38.737089, lng: -72.633629};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 17,
+          		center: temuco
+        		});
+        	var marker = new google.maps.Marker({
+          		position: temuco,
+          		map: map
+        		});
+      	}
       }
     </script>
     <script async defer
@@ -37,12 +378,12 @@
 <body>
 	<nav>
 		<ul>
-			<li><a href="#">Inicio</a></li>
-			<li><a href="#">Mapa</a></li>
-			<li><a href="#">Foro</a></li>
-			<li><a href="#">Veterinarias</a></li>
-			<li><a href="#">Registrarse</a> </li>
-			<li><a href="#">Educación</a></li>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="mapa.html">Mapa</a></li>
+				<li><a href="foro.html">Foro</a></li>
+				<li><a href="veterinarias.html">Veterinarias</a></li>
+				<li><a href="registro.html">Registrarse</a> </li>
+				<li><a href="educa.html">Educación</a></li>
 			<form method="post" >
 				<li><input type="submit" name="submitLogForm" value="Iniciar sesión"></li>
 				<li><input type="pass" name="userpassword" placeholder="Clave"></li>
@@ -57,7 +398,7 @@
 	<section>
 		<div id="menu">
 			<h3 style="text-align: center">Lista de veterinarias</h3>
-			<ul style="list-style: none;height: 550px;width: 250px; overflow-y: auto;cursor: pointer">
+			<ul style="list-style: none;height: 550px;width: 350px; overflow-y: auto;cursor: pointer">
 			   	
 				<li onclick="initMap(1)">Clínica Veterinaria Alma</li>
 			    <li onclick="initMap(2)">Clínica Veterinaria Edén</li>
@@ -91,7 +432,7 @@
 				<li onclick="initMap(30)"> Veterinaria Sevilla</li>
 				<li onclick="initMap(31)"> Vetpharma</li>
 				<li onclick="initMap(32)"> Clínica Veterinaria Exonupets</li>
-				<li onclick="initMap(33)"> Veterinaria Dr. Pablo Iglesias</li>
+				<li onclick="initMap(33)"> Clínica veterinária Pets Life</li>
 			</ul>
 		</div>
 	</section>	
@@ -144,7 +485,7 @@ body{
 #menu{
     vertical-align: right;
     border:1px solid white;  
-    width: 300px;
+    width: 400px;
     height: 650px;
     background-color: orange;
     margin-top: 10px;
@@ -152,7 +493,7 @@ body{
 
 #map{
     float: right;
-    width: 1150px;
+    width: 1050px;
     margin-right: 10px;
     height: 650px;
     background-color: white;
