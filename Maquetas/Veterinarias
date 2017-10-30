@@ -24,7 +24,7 @@
 		</nav>
 		<section>
 				<h1>Veterinarias Temuco</h1>
-				<table width="100%" height="450px" border="3">
+				<table width="100%" height="450px" border="3" bordercolor="white">
 					<ul>
 						<tr>
 							<td>
