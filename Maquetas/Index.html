@@ -4,6 +4,8 @@
 		<title>Index</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<script src="jquery-3.2.1.min.js"></script>  <!--cambiar jquery dependiendo el que este en tu pc -->
+		<script src="main.js"></script>
 
 	</head>
 	<body>
@@ -26,26 +28,51 @@
 			<div>
 				<div id="info">
 					<h1>¿Que es BuscaVet?</h1>
-					<p> BuscaVet es un proyecto creados por un grupo de estudiantes de la carrera de Ing. Civil Informatica de la universidad
+					<p> 		BuscaVet es un proyecto creados por un grupo de estudiantes de la carrera de Ing. Civil Informatica de la universidad
 de Temuco, la cual busca como principal objetivo buscar y encontrar una veterinaria para nuestra mascota.
 
 					</p>
-					<p> En conjunto con ONG Canes y Felinos de temuco que nos ayudaran con información relevante, respecto a la nueva ley de tenencia 
+					<p> 		En conjunto con ONG Canes y Felinos de temuco que nos ayudaran con información relevante, respecto a la nueva ley de tenencia 
 responsable con el fin de transmitir la informacion de forma clara.
 					</p>
 				</div>
 				<div id="imagen">
-					<img src="logo ong.png" alt="ONG canes y Felinos">
+					<ul id="slider" class="slider_p">
+						<li class="primer_slider">
+							<img src="fotos/logo arca de noe.png" alt="foto" height="150px" width="350px">
+						</li>
+						<li>
+							<img src="fotos/logo ong.png" alt="foto" height="150px" width="350px">
+						</li>
+						<li>
+							<img src="fotos/logo alma.jpg" alt="foto" height="150px" width="350px">
+						</li>
+						<li>
+							<img src="fotos/logo vet rodriguez.jpg" alt="foto" height="150px" width="350px">
+						</li>
+						<li>
+							<img src="fotos/recabarren logo.jpg" alt="foto" height="150px" width="350px">
+						</li>
+						<li>
+							<img src="fotos/portal de las  mascotas.jpg" alt="foto" height="150px" width="350px">
+						</li>
+						<li>
+							<img src="fotos/los castaños.jpg" alt="foto" height="150px" width="350px">
+						</li>
+						<li>
+							<img src="fotos/kennel.png" alt="foto" height="150px" width="350px">
+						</li>
+					</ul>
+
 				</div>
 			</div>		
 		</section>
-		<footer>
-			<p>Todos los derechos reservados</p>
-		</footer>
+	
 	</body>
 </html>
-
----------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CSS
+---
 
 nav ul{
     list-style-type: none;
@@ -81,16 +108,14 @@ nav ul form li input{
     margin-right: 2px;
     margin-left: 2px;
 }
-#info{
-    height:300px;
-    width:500px;
-}
 
-#comentarios{
-    float: center;
-    height: 300px;
-    width: 200px;
-    background-color: solid black;  
+#info{
+    float: left;
+    height:300px;
+    width:400px;
+}
+#imagen{
+    float: right;
 }
 
 body{
@@ -99,8 +124,30 @@ body{
 }
 
 img{
-    float: center;
     width:200px;
     height:150px;
 }
 
+.slider_p{
+
+  position: relative;
+  height: 150px;
+  width: 300px;
+  overflow: hidden;
+}
+.slider_p li{
+
+  display: none;
+}
+
+li.primer_slider{
+
+  display: block;
+}
+
+.primer_slider li img{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+---------------------------------------------------------------------------------------------------------------------------------------------
