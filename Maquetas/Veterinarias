@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Veterinarias</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript" src="demo.js"></script>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Mapa</a></li>
+				<li><a href="#">Foro</a></li>
+				<li><a href="#">Veterinarias</a></li>
+				<li><a href="#">Registrarse</a> </li>
+				<li><a href="#">Educación</a></li>
+				<form method="post" >
+					<li><input type="submit" name="submitLogForm" value="Iniciar sesión"></li>
+					<li><input type="pass" name="userpassword" placeholder="Clave"></li>
+					<li><input type="text" name="username" placeholder="Nombre de usuario"></li>
+				</form>
+			</ul>
+		</nav>
+		<section>
+				<h1>Veterinarias Temuco</h1>
+				<table width="100%" height="450px" border="3" bordercolor="white">
+					<ul>
+						<tr>
+							<td>
+								<li id="Ti"><strong>Clínica Veterinaria Altamira</strong></li>
+									<p>Contacto: 2731003</p>
+									<p>Ubicación: Av. Altamira #02467, Temuco.</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Clínica Veterinaria Arca de Noé</strong></li>
+									<p>Contacto: 2244535</p>
+									<p>Ubicación: Av. Bernardo O’higgins #01158, Temuco.</p>
+
+									<button><a href="#popup" class="popup-link">Servicios</a></button>
+										<div class="modal-wrapper" id="popup">
+  											<div class="popup-contenedor">
+      											<h2>Servicios</h2>
+      											<p>-Consulta Animales Exoticos -Medicina Preventiva -Medicina Terapeutica -Hotel -Farmacia</p>
+            									<p>-Cirugias Basicas y Especializadas -Ecografias -Radiografias Digitales -Peluqueria -Alimento para Mascotas</p>
+      											<a class="popup-cerrar" href="#">X</a>
+   											</div>
+										</div>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<li id="Ti"><strong>Clínica Veterinaria Edén</strong></li>
+									<p>Contacto: 2315500</p>
+									<p>Ubicación: Bernardo O'Higgins #297, Temuco.</p>
+									<button><a href="#popup" class="popup-link">Servicios</a></button>
+										<div class="modal-wrapper" id="popup">
+  											<div class="popup-contenedor">
+      											<h2>Servicios</h2>
+      											<p>Consultas, Cirugias, Hospitalizacíon, Peluquería, Hotel, Destartraje, Microchip</p>
+            									<p>Farmacia, Alimento para Mascotas, Laboratorio, Radiografias, Ecografias</p>
+            									<p>Ecocardiografía y Electrocardiografía, Endoscopías, Tratamientos oncológicos</p>
+      											<a class="popup-cerrar" href="#">X</a>
+   											</div>
+										</div>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Clínica Veterinaria El Carmen</strong></li>
+									<p>Servicio:</p>
+									<p>Horario:</p>
+									<p>Contacto: 2521800</p>
+									<p>Ubicación: Av. Los Creadores  #0115, Temuco.</p>
+							</td>	
+						</tr>
+						<tr>
+							<td>	
+								<li id="Ti"><strong>Clínica Veterinaria Kennel  </strong></li>
+									<p>Contacto: 2313000</p>
+									<p>Ubicación: Av. San Martín #1580, Temuco.  </p>
+									<button><a href="#popup" class="popup-link">Servicios</a></button>
+										<div class="modal-wrapper" id="popup">
+  											<div class="popup-contenedor">
+      											<h2>Servicios</h2>
+      											<p>Consulta, Vacunacíon, Ecografía, Cuidados Intensivos</p>
+            									<p>Laboratorio diagnóstico de urgencia, Peluquería</p>
+            									<p>Rayos X</p>
+      											<a class="popup-cerrar" href="#">X</a>
+   											</div>
+										</div>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Clínica Veterinaria Los Castaños</strong></li>
+									<p>Contacto: 2256801</p>
+									<p>Ubicación: Av. Rudecindo Ortega #02550, Temuco. </p>
+							</td>	
+						</tr>
+
+						<tr>
+							<td>
+								<li id="Ti"><strong>Clínica Veterinaria Recabarren - Barros Arana</strong></li>
+									<p>Contacto: 2222900</p>
+									<p>Ubicación: Av. Barros Arana #01286, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Clínica Veterinaria Recabarren - Pedro de Valdivia</strong></li>
+									<p>Contacto: 2402020</p>
+									<p>Ubicación: Av. Pedro de Valdivia #02075, Temuco. </p>
+							</td>		
+						</tr>	
+
+						<tr>
+							<td>	
+								<li id="Ti"><strong> Clínica Veterinaria Recabarren - Recabarren </strong></li>
+									<p>Contacto: 2989877</p>
+									<p>Ubicación: Av. Recabarren #01571, Temuco.</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong> Clínica Veterinaria Temuco</strong></li>
+									<p>Contacto: 240505</p>
+									<p>Ubicación: Av. Pablo Neruda #01471, Temuco. </p>
+							</td>	
+						</tr>
+
+						<tr>
+							<td>
+								<li id="Ti"><strong>El Portal de las Mascotas</strong></li>
+									<p>Contacto: 2735270</p>
+									<p>Ubicación: Prieto Norte #215, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Hospital Veterinario - UCT</strong></li>
+									<p>Contacto: 2553978</p>
+									<p>Ubicación: Av. Rudecindo Ortega #02950, Temuco. </p>
+							</td>		
+						</tr>	
+
+						<tr>
+							<td>	
+								<li id="Ti"><strong> Hospital Veterinario - UST </strong></li>
+									<p>Contacto: 2942274</p>
+									<p>Ubicación: Av. Arrayan #405, Temuco.</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Instituto Quirúrgico Veterinario</strong></li>
+									<p>Contacto: 2401207</p>
+									<p>Ubicación: Av. Barros Arana #03805, Temuco. </p>
+							</td>	
+						</tr>
+
+						<tr>
+							<td>
+								<li id="Ti"><strong>Clínica Veterinaria Alma</strong></li>
+									<p>Contacto: 2528292</p>
+									<p>Ubicación: Manuel Rodríguez #480, Temuco. </p>
+									<button><a href="#popup" class="popup-link">Servicios</a></button>
+										<div class="modal-wrapper" id="popup">
+  											<div class="popup-contenedor">
+      											<h2>Servicios</h2>
+      											<p>Ecografia especializada y ecocardiografía, Exámenes de sangre, Consulta Médico Veterinaria</p>
+            									<p>Cirugías de tejidos blandos, Limpieza dental con Ultrasonido </p>
+            									<p>Hospital Canino y Felino, Peluquería y Baños Sanitarios</p>
+      											<a class="popup-cerrar" href="#">X</a>
+   											</div>
+										</div>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Rodríguez</strong></li>
+									<p>Contacto: 977027725</p>
+									<p>Ubicación: Av. Rodríguez #404, Temuco. </p>
+							</td>		
+						</tr>	
+
+						<tr>
+							<td>	
+								<li id="Ti"><strong> Clínica Veterinaria Vidapet </strong></li>
+									<p>Contacto: 2240814 </p>
+									<p>Ubicación: Olimpia #1940, Temuco.</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Pet Boutique Alemania</strong></li>
+									<p>Contacto: 2734477</p>
+									<p>Ubicación: Av. España #460, loc. 102, Temuco. </p>
+							</td>	
+						</tr>
+
+						<tr>
+							<td>
+								<li id="Ti"><strong>Veterinaria Andes</strong></li>
+									<p>Contacto: 2316454</p>
+									<p>Ubicación: Av. Andes #705, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Animalia</strong></li>
+									<p>Contacto: 2516048</p>
+									<p>Ubicación: Av. Lagos #565, Temuco. </p>
+							</td>		
+						</tr>	
+
+						<tr>
+							<td>	
+								<li id="Ti"><strong> Veterinaria Citydog </strong></li>
+									<p>Contacto: 2340609</p>
+									<p>Ubicación: Los Nardos #01381, Temuco.</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Lemantú</strong></li>
+									<p>Contacto: 2749174</p>
+									<p>Ubicación: Tomás Alba Edison #2221, Temuco. </p>
+							</td>	
+						</tr>
+
+						<tr>
+							<td>
+								<li id="Ti"><strong>Veterinaria Malen</strong></li>
+									<p>Contacto: 2739919</p>
+									<p>Ubicación: Rio Baker #711, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Mascotas</strong></li>
+									<p>Contacto: 2234442</p>
+									<p>Ubicación: Av. Alemania #01655, Temuco. </p>
+							</td>		
+						</tr>	
+
+						<tr>
+							<td>	
+								<li id="Ti"><strong> Veterinaria Municipal </strong></li>
+									<p>Contacto: 2973451</p>
+									<p>Ubicación: Imperial #40, Temuco.</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Ñielol</strong></li>
+									<p>Contacto: 2214230</p>
+									<p>Ubicación: Zenteno #392, Temuco. </p>
+							</td>	
+						</tr>
+
+						<tr>
+							<td>
+								<li id="Ti"><strong>Veterinaria Peumayen</strong></li>
+									<p>Contacto: 2313201</p>
+									<p>Ubicación: Quillay #3480, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Veterinaria San Francisco de Asís</strong></li>
+									<p>Contacto: 2404525</p>
+									<p>Ubicación: Av. Pedro de Valdivia 0853, Temuco. </p>
+							</td>		
+						</tr>	
+
+						<tr>
+							<td>	
+								<li id="Ti"><strong> Veterinaria San Sebastián </strong></li>
+									<p>Contacto: 2264408</p>
+									<p>Ubicación: Av. Las Encinas #01810, Temuco.</p>
+							</td>
+
+							<td>
+								<li id="Ti"><strong>Veterinaria Sevilla</strong></li>
+									<p>Contacto: 2244626</p>
+									<p>Ubicación: Av. Pablo Neruda #01994, Temuco. </p>
+							</td>	
+						</tr>
+
+						<tr>
+							<td>
+								<li id="Ti"><strong>Vetpharma</strong></li>
+									<p>Contacto: 2239728</p>
+									<p>Ubicación: Manuel Bulnes #279, loc 19, Temuco. </p>
+							</td>	
+
+							<td>
+								<li id="Ti"><strong>Clínica Veterinaria Exonupets</strong></li>
+									<p>Contacto: 2223832</p>
+									<p>Ubicación: Av. Caupolicán #1471, Temuco. </p>
+							</td>		
+						</tr>	
+
+						<tr>
+							<td>
+								<li id="Ti"><strong>Veterinaria Dr. Pablo Iglesias</strong></li>
+									<p>Contacto: 2546954</p>
+									<p>Ubicación: Inés de Suarez #1165, Temuco.</p>
+							</td>
+						</tr>
+					</ul>
+			</table>
+			<p>Todos los derechos reservados</p>
+		</section>
+		<footer>Pie</footer>
+			
+	</body>
+</html>
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+CSS
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: orange;
+}
+nav form {
+    list-style-type: none;
+    margin-right: 5%; 
+    padding: 1%;
+    overflow: visible;
+    background-color: orange;
+}
+nav ul form li{
+    float: right;
+}
+nav ul form li input{
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+#menu{
+    vertical-align: right;
+    border:1px solid white;  
+    width: 300px;
+    height: 600px;
+    background-color: lightblue;
+    margin-top: 10px;
+}
+
+#maps{
+    float: right;
+    width: 1150px;
+    margin-right: 10px;
+    height: 600px;
+    background-color: green;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+
+}
+
+#ban{
+    color: #555555;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 0px;
+    z-index: 0;
+}
+footer{
+    width: 100%;
+    height:80px;
+    background-color:#555555;
+    text-align: center;
+}
+
+section div ul{
+    color:white;
+    font-size: 30px;
+}
+
+table{
+    color:white;
+    font-size: 15px;
+}
+
+h1{
+    font-size: 45px;
+    color: white;
+}
+
+#Ti{
+    font-size: 20px;
+
+}
+body{
+    background-color: #336699;
+    color: white;
+}
+#popup {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -300px;
+}
+#popup:target {
+   visibility:visible;
+   opacity: 1;
+   background-color: rgba(0,0,0,0.8);
+   position: fixed;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   margin:0;
+   z-index: 999;
+   transition:all 1s;
+}
+.popup-contenedor {
+   position: relative;
+   margin:7% auto;
+   padding:30px 50px;
+   background-color: #fafafa;
+   color:#333;
+   border-radius: 3px;
+   width:50%;
+}
+a.popup-cerrar {
+   position: absolute;
+   top:3px;
+   right:3px;
+   background-color: #333;
+   padding:7px 10px;
+   font-size: 20px;
+   text-decoration: none;
+   line-height: 1;
+   color:#fff;
+}
