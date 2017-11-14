@@ -1,0 +1,25 @@
+<?php
+	include("conex.inc");
+	$usuario = $_POST["usuario"];
+	$password = $_POST["password"]; 
+
+	$consulta = "SELECT usuario FROM usuarios";
+	$respuesta = mysqli_query($db, $consulta);
+	$verificar_usuario =0;
+
+	while($fila=mysqli_fetch_object($respuesta)){
+		if($fila->usuario == $usuario){
+			$verificar_usuario =1;
+		}
+	}
+	if($verificar_usuario == 0){
+
+		$consulta = "INSERT INTO `usuarios`(`usuario`, `clave`) VALUES ('$usuario','$password')";
+		$respuesta = mysqli_query($db, $consulta);
+		header("Location: loginranking.php");
+	}
+	else{
+		header("Location: registrar.php?error=Este+usuario+ya+ha+sido+registrado+anteriormente");
+	}
+
+?>
