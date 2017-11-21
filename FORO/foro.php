@@ -19,6 +19,7 @@
         <li><a href="index.html">Inicio</a></li>
         <li><a href="mapa.html">Mapa</a></li>
         <li><a href="forovet.php">Foro</a></li>
+        <li><a href="ranking.php">Votación</a></li>
         <li><a href="veterinarias.html">Veterinarias</a></li>
         <li><a href="educa.html">Educación</a></li>
         <li><a href="CerrarSesion.php">Cerrar Sesion</a></li>
@@ -45,9 +46,8 @@
 		$mensaje = $row->mensaje;
 		$fecha = $row->fecha;
 		$respuestas = $row->respuestas;
-
 		echo "<table border= '2' style='background-color: white; color:black;'>";
-		echo "<tr><td>$titulo</tr></td>";
+		echo "<tr><td>$titulo <span style='float:right'>$fecha</span></tr></td>";
 		echo "<tr><td>autor: $autor</td></tr>";
 		echo "<tr><td style=' width: 800px; height: 80px'>$mensaje</td></tr>";
 		echo "</table>";
@@ -66,9 +66,8 @@
 		$mensaje = $row->mensaje;
 		$fecha = $row->fecha;
 		$respuestas = $row->respuestas;
-
 		echo "<table border= '2' style='background-color: white; color:black;'>";
-		echo "<tr><td>autor: $autor</td></tr>";
+		echo "<tr><td>autor: $autor<span style='float:right'>$fecha</span></td></tr>";
 		echo "<tr><td style=' width: 800px; height: 80px'>$mensaje</td></tr>";
 		echo "</table>";
 		//echo "<br /><br /><a href='formulario.php?id&respuestas=$respuestas&identificador=$id' style='color: white; background: #336699; :visited color: white; :hover background: #336699; :visited:hover color: white'>Responder</a><br />";
