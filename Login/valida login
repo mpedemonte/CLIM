@@ -9,18 +9,22 @@ $consulta = "SELECT `usuario`, `clave` FROM `usuarios` WHERE usuario='$usuario' 
 $respuesta = mysqli_query($db, $consulta);
 
 $fila=mysqli_fetch_object($respuesta);
-if($fila->usuario == $usuario && $fila->clave == $password){
+if($fila->usuario == $usuario && $fila->clave == $password && $fila->usuario != "admin"){
 	//Creamos las variables de sesion
 	$_SESSION["estado"] = "conectado";
 	$_SESSION["nombre"] = $usuario;
 	// Lo redireccionamos al menu del sistema
-	header("Location: forovet.php");
-	
+	header("Location: forovet.php");	
 }
-else{
+if($fila->usuario == "admin" && $fila->clave == "adminbuscavet") {
+	$_SESSION["estado"] = "conectado";
+	$_SESSION["nombre"] = "admin";
+
+	header("Location: forovetadmin.php");
+}
+if($fila->usuario != $usuario || $fila->clave != $password) {
 	header("Location: login.php?error=Usuario+o+Clave+erroneas");
 }
 
-	
 
 ?>
