@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contacto</title>
 	<meta charset="utf-8">
+	<title>Contacto</title>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
@@ -14,7 +14,6 @@
 				<li><a href="#">Veterinarias</a></li>
 				<li><a href="#">Registrarse</a> </li>
 				<li><a href="#">Educación</a></li>
-				<li><a href="#">Contacto</a></li>
 				<form method="post" >
 					<li><input type="submit" name="submitLogForm" value="Iniciar sesión"></li>
 					<li><input type="pass" name="userpassword" placeholder="Clave"></li>
@@ -22,17 +21,29 @@
 				</form>
 			</ul>
 		</nav>
-
+	<form name="contactform" method="post" action="#">
 		<h1>Contacto</h1>
-		<div style="margin-left: 400px">
-			<iframe src="http://www.suformulario.com/formulario.php?id=MjY3MzM%3D" style="width:500px;height:750px;background-color:white;border-width:2px;color: white" frameBorder="5" ALLOWTRANSPARENCY="true">
-		</iframe>
-		</div>
-		
-		<footer>Pie</footer>
+		<p>Cualquier duda, sugerencia o reclamo de la pagina porfavor contactenos con nosotros llenando el siguiente
+formulario.</p>
+<table width="450px">
+<tr>
+<tr>
+ <td valign="top">
+  <label for="message">Mensaje *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="message" maxlength="10000" cols="100" rows="30"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Enviar">   <a href="#"></a>
+ </td>
+</tr>
+</table>
+</form>
 </body>
 </html>
-
 --------------------------------------------------------------------------------------------------------------------------------
 CSS
 
