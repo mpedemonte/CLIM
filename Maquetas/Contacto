@@ -14,11 +14,7 @@
 				<li><a href="#">Veterinarias</a></li>
 				<li><a href="#">Registrarse</a> </li>
 				<li><a href="#">Educación</a></li>
-				<form method="post" >
-					<li><input type="submit" name="submitLogForm" value="Iniciar sesión"></li>
-					<li><input type="pass" name="userpassword" placeholder="Clave"></li>
-					<li><input type="text" name="username" placeholder="Nombre de usuario"></li>
-				</form>
+				<li><a href="#">Contacto</a></li>
 			</ul>
 		</nav>
 	<form name="contactform" method="post" action="#">
