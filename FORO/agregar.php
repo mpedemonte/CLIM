@@ -13,7 +13,7 @@
 			$mensaje=$_POST['mensaje'];
 			$respuestas=$_POST['respuestas'];
 			$identificador=$_POST['identificador'];
-			$fecha = date("d-m-y");
+			$fecha = date("y-m-d");
 			
 			
 			//Evitamos que el usuario ingrese HTML
@@ -25,7 +25,6 @@
 			$respuesta = mysqli_query($db, $consulta);
 			$fila=mysqli_fetch_object($respuesta);
 			$id_autor = $fila->id_usuarios;
-
 			//Grabamos el mensaje en la base de datos.
 			$consulta = "INSERT INTO foro (titulo, mensaje, identificador, fecha, ult_respuesta,id_usuarios) VALUES ('$titulo', '$mensaje', '$identificador','$fecha','$fecha','$id_autor')";
 			
