@@ -1,0 +1,79 @@
+<?php
+session_start();
+//Preguntamos si no esta conectado
+if(empty($_SESSION["estado"]))
+	header("Location: login.php?error=Debe+Conectarse");
+//Estoy dentro del sistema
+?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Index</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="inicio.css">
+		<script src="jquery321.js"></script>  <!--cambiar jquery dependiendo el que este en tu pc -->
+		<script src="main.js"></script>
+
+	</head>
+	<body>
+		<nav>
+      <ul>
+        <li><a href="indexadmin.html">Inicio</a></li>
+        <li><a href="mapaadmin.php">Mapa</a></li>
+        <li><a href="forovetadmin.php">Foro</a></li>
+        <li><a href="rankingadmin.php">Votación</a></li>
+        <li><a href="veterinariasadmin.php">Veterinarias</a></li>
+        <li><a href="educaadmin.html">Educación</a></li>
+        <li><a href="CerrarSesion.php">Cerrar Sesion</a></li>
+        <!--<form method="post" >
+          <li><input type="submit" name="submitLogForm" value="Iniciar sesión"></li>
+          <li><input type="pass" name="userpassword" placeholder="Clave"></li>
+          <li><input type="text" name="username" placeholder="Nombre de usuario"></li>
+        </form>-->
+      </ul>
+    </nav>
+		<section>
+			<div>
+				<div id="info">
+					<h1>¿Que es BuscaVet?</h1>
+					<p> 		BuscaVet es un proyecto creados por un grupo de estudiantes de la carrera de Ing. Civil Informatica de la universidad Catolica de Temuco, el cual tiene como principal objetivo encontrar la mejor veterinaria para nuestra mascota mediante la informacion encontrada en el foro y las votaciones de los usuarios de nuestra pagina.
+
+					</p>
+					<p> 		En conjunto con ONG Canes y Felinos de temuco que nos ayudaran con información relevante, respecto a la nueva ley de tenencia 
+responsable con el fin de transmitir la informacion de forma clara.
+					</p>
+				</div>
+				<div id="imagen">
+					<ul id="slider" class="slider_p">
+						<li class="primer_slider">
+							<img src="fotos/alma.jpg" alt="foto">
+						</li>
+						<li>
+							<img src="fotos/castaño.jpg" alt="foto">
+						</li>
+						<li>
+							<img src="fotos/kennel.png" alt="foto">
+						</li>
+						<li>
+							<img src="fotos/noe.png" alt="foto">
+						</li>
+						<li>
+							<img src="fotos/ong.png" alt="foto">
+						</li>
+						<li>
+							<img src="fotos/portal.jpg" alt="foto">
+						</li>
+						<li>
+							<img src="fotos/recabarren.jpg" alt="foto">
+						</li>
+						<li>
+							<img src="fotos/rodriguez.jpg" alt="foto">
+						</li>
+					</ul>
+
+				</div>
+			</div>		
+		</section>
+	
+	</body>
+</html>
