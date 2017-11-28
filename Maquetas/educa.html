@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Educacion</title>
+		
+		<meta charset="utf-8">
+		
+		<link rel="stylesheet" type="text/css" href="educa.css">
+
+		<script type="text/javascript">
+		var clic=1;
+		function Huella(){
+			if (clic==1) {
+				document.getElementById("caja").style.height="450px";
+				document.getElementById("parra").style.visibility="visible";
+				document.getElementById("parra1").style.visibility="visible";
+				document.getElementById("parra2").style.visibility="visible";
+				document.getElementById("parra3").style.visibility="visible";
+				document.getElementById("parra4").style.visibility="visible";
+				document.getElementById("gatito").style.visibility="hidden";
+				clic=clic+1;
+			} 
+			else{
+				document.getElementById("caja").style.height="0";
+				document.getElementById("parra").style.visibility="hidden";
+				document.getElementById("parra1").style.visibility="hidden";
+				document.getElementById("parra2").style.visibility="hidden";
+				document.getElementById("parra3").style.visibility="hidden";
+				document.getElementById("parra4").style.visibility="hidden";
+				document.getElementById("gatito").style.visibility="visible";
+				clic=1;			
+			}
+		}
+		var c=1;
+		function gatero(){
+			if (c==1) {
+				document.getElementById("gato").style.height="450px";
+				document.getElementById("c").style.visibility="visible";
+				document.getElementById("c1").style.visibility="visible";
+				document.getElementById("c2").style.visibility="visible";
+				document.getElementById("c3").style.visibility="visible";
+				document.getElementById("prro").style.visibility="hidden";
+				c=c+1;
+			}
+			else{
+				document.getElementById("gato").style.height="0";
+				document.getElementById("c").style.visibility="hidden";
+				document.getElementById("c1").style.visibility="hidden";
+				document.getElementById("c2").style.visibility="hidden";
+				document.getElementById("c3").style.visibility="hidden";
+				document.getElementById("prro").style.visibility="visible";
+				c=1;
+			}
+		}
+		</script>
+	</head>
+
+<!--NAV-->
+
+	<body>	
+		<nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="mapa.php">Mapa</a></li>
+        <li><a href="forovet.php">Foro</a></li>
+        <li><a href="ranking.php">Votación</a></li>
+        <li><a href="veterinarias.php">Veterinarias</a></li>
+        <li><a href="educa.html">Educación</a></li>
+        <li><a href="solicitud.php">Contacto</a>
+        <!--<form method="post" >
+          <li><input type="submit" name="submitLogForm" value="Iniciar sesión"></li>
+          <li><input type="pass" name="userpassword" placeholder="Clave"></li>
+          <li><input type="text" name="username" placeholder="Nombre de usuario"></li>
+        </form>-->
+      </ul>
+    </nav>
+  		
+<!-- Huella de Perro -->
+
+  		<section id="caja">
+  			<div>
+     			<h1 id="parra">Ley cholito</h1>
+   				<p id="parra1">La normativa define el acto de maltrato o crueldad con los animales es "toda acción u omisión ocasional o reiterada que injustificadamente cause daño, dolor o sufrimiento a un animal".</p>
+				<p id="parra2">Además, considera que "el abandono es maltrato, prohíbe el sacrificio como método de control de población, las peleas de animales y el adiestramiento para que sean más agresivos".</p>
+				<p id="parra3">El texto también establece que los dueños son "responsables de su alimentación, manejo sanitario y obligación de la norma y de responder civilmente de los daños que éstos causen".</p>
+				<p id="parra4">A nivel local, las Municipalidades serán las encargadas de rescatar, sanitizar, esterilizar y reubicar animales sin dueño, institución que, además, estará a cargo de fiscalizar esta norma.</p>
+  			</div>
+  		</section>
+  		
+  		<div id="boton" onclick="Huella()" class="imagen">
+  			<img id="prro" src="https://i.pinimg.com/originals/5f/9b/6d/5f9b6d768d02122b9120f572b3e9e330.png" alt="Ley cholito"/>
+		</div>
+		
+<!-- Huella de Gato -->
+		
+		<section id="gato">
+			<div>
+				<h4 id="c">Consejos para esterilizar a tu mascota</h4>
+				<p id="c1">No debe comer ni consumir líquidos en las 12 horas previas a la cirugía, lo anterior para evitar complicaciones derivadas del uso de anestésicos durante el procedimiento quirúrgico y su recuperación.</p>
+				<p id="c2">No es conveniente que los bañes antes de la cirugía, ya que el uso de anestésicos baja la temperatura corporal de tu animalito y podría presentarse un problema de tipo respiratorio.</p>
+				<p id="c3">Si tu perro o gato fue vacunado deberás esperar cuando menos 15 días antes de esterilizarlo, y posterior a la intervención quirúrgica es recomendable que dejes transcurrir 10 días antes de vacunarlo.</p>
+			</div>	
+		</section>
+		
+		<div id="boton2" onclick="gatero()">
+			<img id="gatito" src="https://i.pinimg.com/originals/24/90/5e/24905e2b135be6ebd0718e4c6c3b81cb.png">
+			<h2></h2>
+		</div>
+		
+	</body>
+</html>
