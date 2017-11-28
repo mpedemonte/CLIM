@@ -1,0 +1,88 @@
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: orange;
+}
+nav form {
+    list-style-type: none;
+    margin-right: 5%; 
+    padding: 1%;
+    overflow: visible;
+    background-color: orange;
+}
+nav ul form li{
+    float: right;
+}
+nav ul form li input{
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+#info{
+    float: left;
+    height:450px;
+    width:30%;
+    margin-left:5%;
+    
+}
+#imagen{
+    float: right;
+    margin-right: 5%;
+    list-style-type: none;
+}
+
+body{
+    background-color: #336699;
+    color: white;
+    width:100%;
+    min-width:600px;
+    max-width:2800px;
+}
+
+img{
+    width:100%;
+    height:450px;
+    list-style-type: none;
+}
+
+.slider_p{
+
+  position: relative;
+  height: 450px;
+  width: 600px;
+  overflow: hidden;
+  list-style-type: none;
+}
+.slider_p li{
+
+  display: none;
+  list-style-type: none;
+}
+
+li.primer_slider{
+
+  display: block;
+  list-style-type: none;
+}
+
+.primer_slider li img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  list-style-type: none;
+}

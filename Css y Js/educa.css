@@ -1,0 +1,116 @@
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: orange;
+}
+nav form {
+    list-style-type: none;
+    margin-right: 5%; 
+    padding: 1%;
+    overflow: visible;
+    background-color: orange;
+}
+nav ul form li{
+    float: right;
+}
+nav ul form li input{
+    margin-right: 2px;
+    margin-left: 2px;
+}
+body{
+    background-color: #336699;
+    color: white;
+}
+p{
+	text-align: center;
+	font-family: impact;
+	visibility: hidden;
+	color: white;
+}
+h1{
+	text-align: center;
+	font-family: impact;
+	visibility: hidden;
+	color: white;
+}
+h4{
+	text-align: center;
+	font-family: impact;
+	visibility: hidden;
+	color: white;
+}
+
+/*clases*/
+
+.imagen{
+	position: relative;
+}
+
+/* id's*/
+
+#info{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 350px;
+}
+#gato{
+	float: left;
+	height: 0px;
+	width: 400px;
+	background-color: orange;
+	margin-top: 50px;
+	margin-left: 20%;	
+	box-shadow: 10px 10px 5px #F8470C;
+	position: absolute;
+
+}
+#boton2:hover{
+	opacity: .8
+}
+#prro{
+	height:500px;
+	width: 500px;
+	margin-top: 50px;
+	margin-left: 5%;
+	float: left;
+}
+#gatito{
+	height:500px;
+	width: 500px;
+	margin-top: 50px;
+	margin-left: 20%;
+	float: right;
+	visibility: visible;
+	position: absolute;
+}
+#caja{
+	/*transition: height .4s;*/
+	height: 0px;
+	width: 400px;
+	background-color: orange;
+	margin-top: 50px;
+	float: right;
+	margin-right: 320px;	
+	box-shadow: 10px 10px 5px #F8470C;	
+}
+#boton:hover{
+	opacity: .8;
+}
+#boton{
+	cursor: pointer;
+}
