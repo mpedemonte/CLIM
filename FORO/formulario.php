@@ -1,9 +1,10 @@
 <?php
-  session_start();
-  $user = $_SESSION["nombre"];
-  //Preguntamos si no esta conectado
-  if($_SESSION["estado"] != "conectado")
-  header("Location: login.php?error=Debe+Conectarse");
+session_start();
+//Preguntamos si no esta conectado
+if(empty($_SESSION["estado"]))
+	header("Location: login.php?error=Debe+Conectarse");
+//Estoy dentro del sistema
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -18,11 +19,12 @@
     <nav>
       <ul>
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="mapa.html">Mapa</a></li>
+        <li><a href="mapa.php">Mapa</a></li>
         <li><a href="forovet.php">Foro</a></li>
         <li><a href="ranking.php">Votación</a></li>
-        <li><a href="veterinarias.html">Veterinarias</a></li>
+        <li><a href="veterinarias.php">Veterinarias</a></li>
         <li><a href="educa.html">Educación</a></li>
+        <li><a href="solicitud.php">Contacto</a>
         <li><a href="CerrarSesion.php">Cerrar Sesion</a></li>
         <!--<form method="post" >
           <li><input type="submit" name="submitLogForm" value="Iniciar sesión"></li>
